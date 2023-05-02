@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
-
+import cv2
 
 #For red stripes, r value = 255
 
-  
+
 def red_stripes(image_matrix):
     for row in range(len(image_matrix)):
       if (row // 50) % 2 == 0:
@@ -14,13 +14,7 @@ def red_stripes(image_matrix):
           #1.0 = 255
                 
     return image_matrix
-            
-
-            
-    
-    
-    
-    
+          
 #Grayscale value: All RGB must be the same.
 
 def fade_to_black(image_matrix):

@@ -37,7 +37,14 @@ def hyper_wave(image_matrix):
                 
   return image_matrix
   
-
+def red_distortion (image_matrix):
+  height, width, channels = image_matrix.shape
+  for row in range(height):
+    for col in range(width):
+      for ch in range(channels):
+        image_matrix[row][col][ch] **= (col * width)
+        
+  return image_matrix
 
 # Read the image file
 img = mpimg.imread("valstrax.png")

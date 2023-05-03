@@ -7,7 +7,7 @@ from Filter_Options.filters import red_distortion
 
 __author__ = 'Miles Adedjouma, Jamar Bailey III, Darnell Love'
 __email__ = 'N/A'
-__version__ = '0.1.0'
+__version__ = '1.0.0'
 
 # module level doc-string
 __doc__ = """

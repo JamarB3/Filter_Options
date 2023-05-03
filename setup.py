@@ -16,7 +16,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
      install_requires=['matplotlib','numpy'],        # Dependencies
      python_requires='>=3',                                   # Minimum Python version
-     name='CSIII MDJ III Filter',                                  # Package name
+     name='Filter_Options',                                  # Package name
      version=new_version,                                     # Version
      author="Miles, Jamar,Darnell",                                     # Author name
      author_email="N/A ",                           # Author mail

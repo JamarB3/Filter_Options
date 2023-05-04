@@ -3,7 +3,7 @@ from Filter_Options.filters.py import Filters
 
 __author__ = 'Miles Adedjouma, Jamar Bailey III, Darnell Love'
 __email__ = 'N/A'
-__version__ = '1.0.0'
+__version__ = '0.1'
 
 # module level doc-string
 __doc__ = """

@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 import random
-from filters.py import Filters
+from filters import Filters
 
 #Important: Have your desired image to test, add the file to your program.
 # Read the image file (valstrax is an example image)

@@ -7,16 +7,6 @@ pip install Filter_Options
 
 #Example of code execution
 ```python
-  # Import library
-  from relevantpackage import Relevantpackage
-  # Initialize
-  model = Relevantpackage(message='Hello World')
-  # Run the model
-  model.show()
-```
-
-#Example of code execution
-```python
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
@@ -36,5 +26,5 @@ filtered_img = filters.color_inversion()
 # Display the filtered image using Matplotlib
 plt.imshow(filtered_img)
 plt.show()
-
+```
 

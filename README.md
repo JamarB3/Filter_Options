@@ -5,7 +5,7 @@ Filter Project
 pip install Filter_Options
 ```
 
-#Example of code execution
+#### Example of code execution
 ```python
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg

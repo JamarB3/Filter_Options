@@ -1,5 +1,5 @@
 # Change the content according to your package.
-from Filter_Options.filters.py import Filters
+from Filter_Options.filters import Filters
 
 __author__ = 'Miles Adedjouma, Jamar Bailey III, Darnell Love'
 __email__ = 'N/A'
